@@ -1,0 +1,72 @@
+# .project metadata for external-secrets
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+# TODO: Set project_lead GitHub handle
+# TODO: Set slack_channels
+# TODO: Add package_managers if distributed via registries
+# TODO: No maintainers found in cncf/foundation project-maintainers.csv — add maintainer handles manually
+
+schema_version: "1.0.0"
+slug: "external-secrets"
+name: "external-secrets"
+description: "External Secrets Operator reads information from a third-party service like AWS Secrets Manager and automatically injects the values as Kubernetes Secrets."
+type: "project"
+# TODO: Set project lead GitHub handle
+# project_lead: "github-handle"
+# TODO: Set CNCF Slack channel(s)
+# slack_channels:
+#   - name: "#external-secrets"
+#     primary: true
+
+maturity_log:
+  - phase: "sandbox"
+    date: "2022-07-26T00:00:00Z"
+    issue: "https://github.com/cncf/sandbox/issues/211" # TODO: AUTO-DETECTED — please verify
+
+repositories:
+  - "https://github.com/external-secrets/external-secrets"
+
+website: "https://external-secrets.io/"
+
+artwork: "https://landscape.cncf.io/logos/external-secrets.svg"
+
+adopters:
+  path: "https://github.com/external-secrets/external-secrets/blob/main/ADOPTERS.md"
+
+
+# TODO: Add package manager identifiers if your project is distributed via registries
+# package_managers:
+#   docker: "external-secrets/external-secrets"
+
+social:
+  twitter: "https://twitter.com/ExtSecretsOptr"
+
+security:
+  policy:
+    path: "https://github.com/external-secrets/external-secrets/blob/main/SECURITY.md"
+  contact:
+    advisory_url: "https://github.com/external-secrets/external-secrets/security/advisories/new"
+
+governance:
+  contributing:
+    path: "https://github.com/external-secrets/external-secrets/blob/main/CONTRIBUTING.md"
+  code_of_conduct:
+    path: "https://github.com/cncf/foundation/blob/main/code-of-conduct.md"
+
+legal:
+  license:
+    path: "https://github.com/external-secrets/external-secrets/blob/main/LICENSE"
+  identity_type:
+    has_dco: true # AUTO-DETECTED — please verify
+    has_cla: false # AUTO-DETECTED — please verify
+    dco_url:
+      path: "https://developercertificate.org/"
+
+documentation:
+  readme:
+    path: "https://github.com/external-secrets/external-secrets/blob/main/README.md"
+
+landscape:
+  category: "Provisioning"
+  subcategory: "Security & Compliance"
+
