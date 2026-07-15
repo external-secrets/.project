@@ -4,7 +4,6 @@
 # TODO: Set project_lead GitHub handle
 # TODO: Set slack_channels
 # TODO: Add package_managers if distributed via registries
-# TODO: No maintainers found in cncf/foundation project-maintainers.csv — add maintainer handles manually
 
 schema_version: "1.0.0"
 slug: "external-secrets"
