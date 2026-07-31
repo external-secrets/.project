@@ -1,21 +1,14 @@
 # .project metadata for external-secrets
 # Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
-
-# TODO: Set project_lead GitHub handle
-# TODO: Set slack_channels
-# TODO: Add package_managers if distributed via registries
-
 schema_version: "1.0.0"
 slug: "external-secrets"
 name: "external-secrets"
 description: "External Secrets Operator reads information from a third-party service like AWS Secrets Manager and automatically injects the values as Kubernetes Secrets."
 type: "project"
-# TODO: Set project lead GitHub handle
-# project_lead: "github-handle"
-# TODO: Set CNCF Slack channel(s)
-# slack_channels:
-#   - name: "#external-secrets"
-#     primary: true
+project_lead: "skarlso"
+slack_channels:
+  - name: "#external-secrets"
+    primary: true
 
 maturity_log:
   - phase: "sandbox"
@@ -32,10 +25,8 @@ artwork: "https://landscape.cncf.io/logos/external-secrets.svg"
 adopters:
   path: "https://github.com/external-secrets/external-secrets/blob/main/ADOPTERS.md"
 
-
-# TODO: Add package manager identifiers if your project is distributed via registries
-# package_managers:
-#   docker: "external-secrets/external-secrets"
+package_managers:
+  ghcr: "external-secrets/external-secrets"
 
 social:
   twitter: "https://twitter.com/ExtSecretsOptr"
@@ -56,8 +47,8 @@ legal:
   license:
     path: "https://github.com/external-secrets/external-secrets/blob/main/LICENSE"
   identity_type:
-    has_dco: true # AUTO-DETECTED — please verify
-    has_cla: false # AUTO-DETECTED — please verify
+    has_dco: true
+    has_cla: false
     dco_url:
       path: "https://developercertificate.org/"
 
