@@ -11,7 +11,9 @@ maintainers:
           - moolen
           - knelasevero
           - gusfcarvalho
-          - sebagomez
-          - shuheiktgw
           - skarlso
           - IdanAdar
+      - name: "project-interim-maintainers"
+        members:
+          - evrardj-roche
+          - alekc
