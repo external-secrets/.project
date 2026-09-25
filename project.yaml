@@ -9,24 +9,25 @@ project_lead: "skarlso"
 slack_channels:
   - name: "#external-secrets"
     primary: true
+  - name: "#external-secrets-dev"
 
 maturity_log:
   - phase: "sandbox"
     date: "2022-07-26T00:00:00Z"
-    issue: "https://github.com/cncf/sandbox/issues/211" # TODO: AUTO-DETECTED — please verify
+    issue: "https://github.com/cncf/sandbox/issues/211"
 
 repositories:
   - "https://github.com/external-secrets/external-secrets"
 
 website: "https://external-secrets.io/"
 
-artwork: "https://landscape.cncf.io/logos/external-secrets.svg"
+artwork: "https://github.com/external-secrets/external-secrets/blob/main/assets/eso-round-logo.svg"
 
 adopters:
   path: "https://github.com/external-secrets/external-secrets/blob/main/ADOPTERS.md"
 
 package_managers:
-  ghcr: "external-secrets/external-secrets"
+  docker: "ghcr.io/external-secrets/external-secrets"
 
 social:
   twitter: "https://twitter.com/ExtSecretsOptr"
