@@ -21,7 +21,7 @@ repositories:
 
 website: "https://external-secrets.io/"
 
-artwork: "https://github.com/external-secrets/external-secrets/blob/main/assets/eso-round-logo.svg"
+artwork: "https://github.com/cncf/artwork/tree/main/projects/external-secrets-operator"
 
 adopters:
   path: "https://github.com/external-secrets/external-secrets/blob/main/ADOPTERS.md"
